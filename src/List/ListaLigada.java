@@ -68,6 +68,7 @@ public class ListaLigada {
                   this.primeiro=atual.getProximo();
                   atual.setProximo(null);
 
+
               }else if(atual==ultimo){
                   this.ultimo=anterior;
                   anterior.setProximo(null);
